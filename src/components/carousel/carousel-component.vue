@@ -35,7 +35,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="http://skbet101.com/banner_pc/67da4476-72ae-4cbb-9fea-2b2bcf6fe802.jpg"
+            :src="require('./images/1.jpg')"
             class="d-block w-100"
             alt="..."
           />
@@ -43,21 +43,21 @@
 
         <div class="carousel-item">
           <img
-            src="http://skbet101.com/banner_pc/1a36028d-cc8f-4a1d-a5a6-4d2837dc9dd5.jpg"
+            :src="require('./images/2.jpg')"
             class="d-block w-100"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
-            src="http://skbet101.com/banner_pc/2649eee9-e1c0-48ab-b968-a2eb076bffc5.jpg"
+            :src="require('./images/3.jpg')"
             class="d-block w-100"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
-            src="http://skbet101.com/banner_pc/1a36028d-cc8f-4a1d-a5a6-4d2837dc9dd5.jpg"
+            :src="require('./images/4.jpg')"
             class="d-block w-100"
             alt="..."
           />

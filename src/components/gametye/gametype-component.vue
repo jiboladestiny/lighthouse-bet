@@ -14,13 +14,14 @@
                 <div class="texter">Sports</div>
 
                 <img
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAAAzCAMAAACZtauvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACTUExURevIbOvHa+rIbevIbOvIbKpVANOSOEdwTLpaAOrGa//MZu/Pb7paAOS5XevJa9mhRsBnDevFbLxfBc2EKejGa+vHbbpZAMZ2G7lcALtZALpaALpaALtaAOrGberHbezIbMFrEbpZAOzIberIbefFaOa7Yd6sUerHbevHberHbd+vU7dbALhcALpZALhaALpaALBiAEC5OEMAAAAxdFJOU8xAv411A8wAzMoFEMnMWszMKMzMLaa5zBZep5lPVqFezGxGuhbMzHuqk8wyJHpBig1qs/fMAAAA8klEQVRYw83YRw7CQBBE0TI2wUSbnHPO9z8dmA2NhNf96wRPGunPaFTOWVc+y/NELE+1wPIEYnlClqcWszxNsTw9licVyxOxPMUNyxOI5QlZHr/4/PfMxPLM/T3TyndL+XsmxlPy9wzrxrPz94wMZyB/z9h4Wv6eq+G0Y3/Pyng6cvcU+8Zz9vdcDCeRv+eGic/H83NcDX/PnROfj+fBiU/medY58ck8U1B8Mo+92vf+Hnu1J/4cjUjxeW9Mis/v+7krlufA8rh90eV41mJ5TizPVizPAuY5sjypWJ6I5WHE5+sJxPKELE8tZnmaYnl6FM4LXd4bUe0/3r4AAAAASUVORK5CYII="
+                :src="require('./images/below.png')"
                   alt=""
                 />
               </div>
               <img
+                :src="require('./images/1.png')"
+
                 class="main-img"
-                src="http://skbet101.com/img/match.945d316e.png"
                 alt=""
               />
             </div>
@@ -36,13 +37,13 @@
                 <div class="texter">Live Casinos</div>
 
                 <img
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAAAzCAMAAACZtauvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACTUExURevIbOvHa+rIbevIbOvIbKpVANOSOEdwTLpaAOrGa//MZu/Pb7paAOS5XevJa9mhRsBnDevFbLxfBc2EKejGa+vHbbpZAMZ2G7lcALtZALpaALpaALtaAOrGberHbezIbMFrEbpZAOzIberIbefFaOa7Yd6sUerHbevHberHbd+vU7dbALhcALpZALhaALpaALBiAEC5OEMAAAAxdFJOU8xAv411A8wAzMoFEMnMWszMKMzMLaa5zBZep5lPVqFezGxGuhbMzHuqk8wyJHpBig1qs/fMAAAA8klEQVRYw83YRw7CQBBE0TI2wUSbnHPO9z8dmA2NhNf96wRPGunPaFTOWVc+y/NELE+1wPIEYnlClqcWszxNsTw9licVyxOxPMUNyxOI5QlZHr/4/PfMxPLM/T3TyndL+XsmxlPy9wzrxrPz94wMZyB/z9h4Wv6eq+G0Y3/Pyng6cvcU+8Zz9vdcDCeRv+eGic/H83NcDX/PnROfj+fBiU/medY58ck8U1B8Mo+92vf+Hnu1J/4cjUjxeW9Mis/v+7krlufA8rh90eV41mJ5TizPVizPAuY5sjypWJ6I5WHE5+sJxPKELE8tZnmaYnl6FM4LXd4bUe0/3r4AAAAASUVORK5CYII="
+                :src="require('./images/below.png')"
                   alt=""
                 />
               </div>
               <img
                 class="main-img"
-                src="http://skbet101.com/img/entertainment.b1553ac5.png"
+                :src="require('./images/2.png')"
                 alt=""
               />
             </div>
@@ -58,13 +59,14 @@
                 <div class="texter">E-Games</div>
 
                 <img
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAAAzCAMAAACZtauvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACTUExURevIbOvHa+rIbevIbOvIbKpVANOSOEdwTLpaAOrGa//MZu/Pb7paAOS5XevJa9mhRsBnDevFbLxfBc2EKejGa+vHbbpZAMZ2G7lcALtZALpaALpaALtaAOrGberHbezIbMFrEbpZAOzIberIbefFaOa7Yd6sUerHbevHberHbd+vU7dbALhcALpZALhaALpaALBiAEC5OEMAAAAxdFJOU8xAv411A8wAzMoFEMnMWszMKMzMLaa5zBZep5lPVqFezGxGuhbMzHuqk8wyJHpBig1qs/fMAAAA8klEQVRYw83YRw7CQBBE0TI2wUSbnHPO9z8dmA2NhNf96wRPGunPaFTOWVc+y/NELE+1wPIEYnlClqcWszxNsTw9licVyxOxPMUNyxOI5QlZHr/4/PfMxPLM/T3TyndL+XsmxlPy9wzrxrPz94wMZyB/z9h4Wv6eq+G0Y3/Pyng6cvcU+8Zz9vdcDCeRv+eGic/H83NcDX/PnROfj+fBiU/medY58ck8U1B8Mo+92vf+Hnu1J/4cjUjxeW9Mis/v+7krlufA8rh90eV41mJ5TizPVizPAuY5sjypWJ6I5WHE5+sJxPKELE8tZnmaYnl6FM4LXd4bUe0/3r4AAAAASUVORK5CYII="
+                :src="require('./images/below.png')"
                   alt=""
                 />
               </div>
               <img
                 class="main-img"
-                src="http://skbet101.com/img/electronic.247c0e75.png"
+                :src="require('./images/3.png')"
+
                 alt=""
               />
             </div>
@@ -80,13 +82,13 @@
                 <div class="texter">Chess games</div>
 
                 <img
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAAAzCAMAAACZtauvAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACTUExURevIbOvHa+rIbevIbOvIbKpVANOSOEdwTLpaAOrGa//MZu/Pb7paAOS5XevJa9mhRsBnDevFbLxfBc2EKejGa+vHbbpZAMZ2G7lcALtZALpaALpaALtaAOrGberHbezIbMFrEbpZAOzIberIbefFaOa7Yd6sUerHbevHberHbd+vU7dbALhcALpZALhaALpaALBiAEC5OEMAAAAxdFJOU8xAv411A8wAzMoFEMnMWszMKMzMLaa5zBZep5lPVqFezGxGuhbMzHuqk8wyJHpBig1qs/fMAAAA8klEQVRYw83YRw7CQBBE0TI2wUSbnHPO9z8dmA2NhNf96wRPGunPaFTOWVc+y/NELE+1wPIEYnlClqcWszxNsTw9licVyxOxPMUNyxOI5QlZHr/4/PfMxPLM/T3TyndL+XsmxlPy9wzrxrPz94wMZyB/z9h4Wv6eq+G0Y3/Pyng6cvcU+8Zz9vdcDCeRv+eGic/H83NcDX/PnROfj+fBiU/medY58ck8U1B8Mo+92vf+Hnu1J/4cjUjxeW9Mis/v+7krlufA8rh90eV41mJ5TizPVizPAuY5sjypWJ6I5WHE5+sJxPKELE8tZnmaYnl6FM4LXd4bUe0/3r4AAAAASUVORK5CYII="
+                :src="require('./images/below.png')"
                   alt=""
                 />
               </div>
               <img
                 class="main-img"
-                src="http://skbet101.com/img/animal.05154bf8.png"
+                :src="require('./images/4.png')"
                 alt=""
               />
             </div>
