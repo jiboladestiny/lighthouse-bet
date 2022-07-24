@@ -88,9 +88,15 @@
 export default {};
 </script>
 
-<style>
-
+<style lang="scss">
+@media only screen and (max-width:500px) {
+  .carousel-item{
+    img{
+      height: 170px !important;
+    }
+  }
+}
 .carousel{
-    margin-top: -1rem;
+    margin-top: auto;
 }
 </style>

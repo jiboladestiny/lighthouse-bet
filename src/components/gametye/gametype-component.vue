@@ -2,8 +2,8 @@
   <div class="gametype">
     <div class="containers">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
+        <div class="row gy-5">
+          <div class="col-lg-3 col-md-6">
             <div class="gametype-cont">
               <div class="overlay">
                 <div class="text">
@@ -25,7 +25,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="gametype-cont">
               <div class="overlay">
                 <div class="text">
@@ -47,7 +47,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="gametype-cont">
               <div class="overlay">
                 <div class="text">
@@ -69,7 +69,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 col-md-6">
             <div class="gametype-cont">
               <div class="overlay">
                 <div class="text">
@@ -98,6 +98,12 @@
 </template>
 
 <style lang="scss">
+@media only screen and (max-width: 992px) {
+   .gametype-cont {
+    margin-left: 2rem;
+    margin-right: 2rem;
+   }
+}
 .gametype {
   background-image: url("http://skbet101.com/img/gameType-bg.bc9bb306.png");
   background-repeat: no-repeat;
@@ -111,6 +117,7 @@
     padding: 3rem 0;
 
     .gametype-cont {
+      cursor: pointer;
       position: relative;
 
       .image-cont {

@@ -3,12 +3,12 @@
     <div class="live-bg">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
-            <img style="cursor:pointer" src="http://skbet101.com/img/rw.4f1c2852.png" alt="" />
+          <div class="col-lg-3 d-lg-flex indi d-md-none">
+            <img style="cursor:pointer;" src="http://skbet101.com/img/rw.4f1c2852.png" alt="" />
           </div>
-          <div class="col-lg-9">
+          <div class="col-lg-9 col-md-12" style="z-index:auto !important">
             <div class="row g-0 inner-live-cont">
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div
                   class="
                     live-cont
@@ -30,7 +30,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div
                   class="
                     live-contain
@@ -52,7 +52,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div
                   class="
                     live-cont
@@ -67,7 +67,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div
                   class="
                     live-contain
@@ -82,7 +82,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4 col-md-6">
                 <div
                   class="
                     live-cont
@@ -104,7 +104,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4">
+              <div class="col-lg-4  col-md-6">
                 <div
                   class="
                     live-contain
@@ -135,17 +135,21 @@
 </template>
 
 <style lang="scss">
+@media only screen and (max-width: 992px) {
+  .indi{
+    display: none !important;
+  }
+}
 .live {
   background-image: url("http://skbet101.com/img/background.cc39b8a5.png");
   // padding: 3rem;
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
   //   background-size: cover;
   background-position: left right;
 
   .live-bg {
     background: rgb(0, 0, 0, 0.7);
-    height: 100%;
-    width: 100%;
+
 
     .inner-live-cont {
       .live-cont {

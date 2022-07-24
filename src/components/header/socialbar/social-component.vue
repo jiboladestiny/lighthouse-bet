@@ -24,13 +24,10 @@
         <li><button class="btn btn-danger btn-sm">Login</button></li>
         <li><button class="btn btn-warning btn-sm">Sign-up</button></li>
         <li>
-          <select
-            class="form-select form-select-sm"
-            aria-label=".form-select-sm example"
-          >
-            <option value="2">English</option>
-            <option value="3">Hindi</option>
-          </select>
+<select class="form-select" aria-label="Default select example">
+  <option class="selected" value="2">English</option>
+  <option value="3">Hindi</option>
+</select>
         </li>
       </ul>
     </div>
@@ -38,6 +35,25 @@
 </template>
 
 <style lang="scss">
+
+@media only screen and (max-width: 992px) {
+.right{
+  li{
+
+    .btn{
+      // background: red !important
+      padding:0.4rem 0.5rem;
+      font-size: 14px !important;
+    }
+    &:nth-child(3){
+    display: none !important;
+
+    }
+  }
+}
+}
+
+
 .social {
   border-bottom: 1px solid yellow;
   backdrop-filter: black;

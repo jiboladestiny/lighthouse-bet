@@ -80,6 +80,7 @@
   .track{
     img{
         width: 390px !important;
+        left: 23% !important;
     }
   }
   
@@ -107,7 +108,7 @@
 
         img{
         position: absolute;
-        width: 510px;
+        width: 520px;
         left: 30%;
         // -webkit-transform: translate(-50%, -50%);
         // -ms-transform: translate(-50%, -50%);

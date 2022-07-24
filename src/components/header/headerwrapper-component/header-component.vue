@@ -1,34 +1,33 @@
 <template>
-    <div>
-        <div class="header">
-            <div class="wrapper">
-                    <SocialComponent />
-                <NavbarComponent/>
-                </div>
-        </div>
+  <div>
+    <div class="header">
+      <div class="wrapper">
+        <SocialComponent />
+        <NavbarComponent />
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
-import SocialComponent from '../socialbar/social-component.vue'
-import NavbarComponent from '../navbar/navbar-component.vue'
+import SocialComponent from "../socialbar/social-component.vue";
+import NavbarComponent from "../navbar/navbar-component.vue";
 export default {
-    components:{
+  components: {
     SocialComponent,
-    NavbarComponent
-}
-}
+    NavbarComponent,
+  },
+};
 </script>
 
 
 <style lang="scss">
-
 .header {
-//   height: auto;
-  background-image: url('./images//header-bg.png');
+  //   height: auto;
+  background-image: url("./images//header-bg.png");
   background-repeat: no-repeat;
-  .wrapper{
-    background: rgb(12, 12, 12,0.7);
+  .wrapper {
+    background: rgb(12, 12, 12, 0.7);
   }
 }
 </style>
