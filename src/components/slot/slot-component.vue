@@ -8,7 +8,7 @@
               <div class="mg-slot align-items-center d-flex">
                 <div class="me-3 p-3">
                   <img
-                    src="http://skbet101.com/games/a0c86254-b3c9-4d63-a6db-01e47e15209b.png"
+                :src="require('./images/mg.png')"
                     width="120"
                     alt=""
                   />
@@ -22,7 +22,7 @@
               <div class="mg-slot align-items-center d-flex">
                 <div class="me-3 p-3">
                   <img
-                    src="http://skbet101.com/games/7292fbab-da1b-46c8-8fc7-3786b682af7d.png"
+                :src="require('./images/jd.png')"
                     width="120"
                     alt=""
                   />
@@ -37,12 +37,12 @@
             </div>
             <div class="col-lg-8">
               <img
-                src="http://skbet101.com/img/banner.8d6e4906.png"
+                :src="require('./images/coin.png')"
                 class="img-fluid d-block mt-3"
                 alt=""
               />
 
-              <div class="d-grid mt-5 col-3 mx-auto">
+              <div class="d-grid mt-5 col-md-4 col-5 mx-auto">
                 <button class="btn btn-lg betnow-btn">Bet now</button>
               </div>
             </div>
@@ -55,7 +55,7 @@
 
 <style lang="scss">
 .slot {
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAALQAQMAAABL2v/VAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURQAAAKd6PdoAAAABdFJOU01Ii+VLAAAAv0lEQVR42u3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL4Mpe4AAc/biqoAAAAASUVORK5CYII=");
+  background-image: url("./images/bg.png");
   .slot-dark-bg {
     background: rgb(0, 0, 0, 0.8);
 

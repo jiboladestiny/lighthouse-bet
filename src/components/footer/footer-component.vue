@@ -21,7 +21,11 @@
 
       <div class="sponsors mt-3 mb-3">
         <div>
-            <img src="http://skbet101.com/img/foot_bg.a236272b.png" class="img-fluid d-block mx-auto" alt="">
+          <img
+            :src="require('./sponsors.png')"
+            class="img-fluid d-block mx-auto"
+            alt=""
+          />
         </div>
       </div>
 
@@ -34,7 +38,7 @@
 
 <style lang="scss">
 .footer {
-  background: rgb(0, 0, 0,0.9 );
+  background: rgb(0, 0, 0, 0.9);
 
   .nav {
     .nav-item:not(:last-child) {
@@ -50,7 +54,7 @@
     }
   }
 
-  .copyright{
+  .copyright {
     text-align: center;
     color: white;
   }

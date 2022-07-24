@@ -6,14 +6,14 @@
           <div class="track">
             <img
             class="img-fluid"
-            src="https://www.wallpaperuse.com/wallp/73-735466_m.png"
+              :src="require('./images/absolute.png')"
           />
           </div>
           <div class="col-md-4">
             <div>
               <img
                 class="img-fluid"
-                src="http://skbet101.com/games/6f23b61f-8125-4f6a-91ed-bcbb55c3cd86.png"
+              :src="require('./images/slippers.png')"
                 alt=""
               />
             </div>
@@ -22,7 +22,7 @@
                 class="mb-3"
                 width="400"
                 height="300"
-                src="http://skbet101.com/games/0ae8908b-4df6-4eff-bacc-367d8a2a71c4.jpg"
+              :src="require('./images/baseball.jpg')"
                 alt=""
               />
             </div>
@@ -32,7 +32,8 @@
             <div>
               <img
                 class="img-fluid d-block ms-auto"
-                src="https://sikwin-game.s3.ap-south-1.amazonaws.com/games/4c7d3248179c0080ad4567ca8007317d1654616585"
+                              :src="require('./images/sikwinechange.png')"
+
                 alt=""
               />
             </div>
@@ -40,14 +41,14 @@
               <img
                 class="img-fluid"
                 style="width:100%"
-                src="http://skbet101.com/games/d0213f57-c483-4bb8-9789-c142b28604b5.jpg"
+              :src="require('./images/highway.jpg')"
                 alt=""
               />
             </div>
             <div>
               <img
                 class="img-fluid d-block mx-auto"
-                src="http://skbet101.com/games/012ea68f-f8e4-407c-a5c3-dbd21b3b32d3.png"
+              :src="require('./images/brooklin.png')"
                 alt=""
               />
             </div>

@@ -8,7 +8,7 @@
             <div class="gametype-cont">
               <div class="overlay">
                 <div class="text">
-                  <button class="btn">PLAY FOR SPORT</button>
+                  <button class="btn">PLAY FOR SPORTS</button>
                 </div>
               </div>
               <div class="image-cont">
@@ -108,7 +108,7 @@
    }
 }
 .gametype {
-  background-image: url("http://skbet101.com/img/gameType-bg.bc9bb306.png");
+  background-image: url("./images/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right bottom;
