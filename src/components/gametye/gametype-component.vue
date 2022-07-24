@@ -1,4 +1,5 @@
 <template>
+<!-- fofo -->
   <div class="gametype">
     <div class="containers">
       <div class="container">
