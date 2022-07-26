@@ -1,41 +1,120 @@
 <template>
   <div class="hot">
-    <span class="ms-2">Hot Game</span>
+    <div class="ms-2">Hot Game</div>
 
     <div class="hot-cont">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <!-- <div></div> -->
+      <i @click="right()" class="right bx bx-chevrons-right"></i>
+      <i @click="left()" class="left bx bx-chevrons-left"></i>
+
+      <div>
+        <img
+          class="img-fluid"
+          :src="require('./images/pragmatic.png')"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="img-fluid"
+          :src="require('./images/evolution.png')"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="img-fluid"
+          :src="require('./images/playtech.png')"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="img-fluid"
+          :src="require('./images/pragmatic.png')"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="img-fluid"
+          :src="require('./images/pragmatic.png')"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          class="img-fluid"
+          :src="require('./images/pragmatic.png')"
+          alt=""
+        />
+      </div>
     </div>
   </div>
 </template>
 
+<script>
+export default {
+  methods: {
+    right() {
+      var right = document.querySelector(".hot-cont");
+      right.scrollBy(100, 0);
+    },
+     left() {
+      var right = document.querySelector(".hot-cont");
+      right.scrollBy(-100, 0);
+    },
+  },
+};
+</script>
+
 <style lang="scss">
 .hot {
+      position: relative;
   margin-right: 0.3rem;
   margin-left: 0.3rem;
   border-radius: 0.8rem;
   margin-top: 0.5rem;
-  background: rgb(0, 0, 0);
-  padding: 0.5rem 0.2rem;
+  background:rgb(96,96,96);
+  padding: 0.4rem 0.3rem;
   color: gold;
 
+  div{
+    font-size:14px;
+    margin-bottom:0.3rem;
+  }
+
   .hot-cont {
+  
+    i {
+      cursor: pointer;
+      background: whitesmoke;
+      border-radius: 1rem;
+      font-size: 1.3rem;
+      position: absolute;
+      top: 60%;
+      transform: translate(-50%, -50%);
+    }
+    .right {
+      right: 0;
+    }
+    .left {
+      left: 1rem;
+    }
     display: flex;
     overflow-x: auto;
 
-    // &::-webkit-scrollbar{
-    //     width: 0;
-    // }
+    &::-webkit-scrollbar {
+      width: 0;
+    }
     div {
-      min-width: 80px;
-      height: 80px;
-      background: white;
-      margin-right: 0.3rem;
+      img {
+        min-width: 80px;
+        height: 80px;
+        background: white;
+        margin-right: 0.4rem;
+        border-radius: 0.5rem;
+        transition: all ease-in 1s;
+      }
     }
   }
 }

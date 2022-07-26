@@ -39,9 +39,14 @@ export default {
 }
 </script>
 <style>
+
 @media only screen and (max-width:576px) {
    .mobile{
     display: none;
+   }
+
+   body{
+    background:rgb(72,72,72);
    }
 }
 </style>

@@ -201,12 +201,14 @@
 <style lang="scss">
 @media only screen and (max-width:576px) {
    .navbar{
+    background:red !important;
+    
     .navbar-brand{
       margin: 0 auto !important;
     }
 
     .bxs-bell{
-
+      font-size:23px;
     }
    }
 }
@@ -299,7 +301,7 @@
  }
 
 .navbar {
-  background: transparent !important;
+  background:black !important;
   // height: 100% !important;
   padding: 0 !important;
 
