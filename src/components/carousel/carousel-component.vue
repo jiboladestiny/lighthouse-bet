@@ -1,5 +1,6 @@
 <template>
-    <div
+   <div class="carousel-cont">
+     <div
       id="carouselExampleIndicators"
       class="carousel slide"
       data-bs-ride="carousel"
@@ -82,6 +83,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+   </div>
 </template>
 
 <script>
@@ -90,11 +92,17 @@ export default {};
 
 <style lang="scss">
 @media only screen and (max-width:500px) {
-  .carousel-item{
+ .carousel-cont{
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+ .carousel-item{
     img{
       height: 170px !important;
+      border-radius: 0.8rem;
     }
   }
+ }
+
 }
 .carousel{
     margin-top: auto;

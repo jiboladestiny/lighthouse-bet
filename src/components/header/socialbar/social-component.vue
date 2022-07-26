@@ -1,5 +1,5 @@
 <template>
-  <div class="social">
+  <div class="social mobile">
     <div class="social-wrapper container">
       <ul class="left">
         <li>
@@ -35,7 +35,6 @@
 </template>
 
 <style lang="scss">
-
 @media only screen and (max-width: 992px) {
 .right{
   li{

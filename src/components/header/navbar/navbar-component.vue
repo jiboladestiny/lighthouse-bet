@@ -1,6 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
+      <div>
+        <i class='bx bxs-bell'></i>
+      </div>
       <a href="" class="navbar-brand"
         ><img :src="require('./images/logo.png')" width="100" alt=""
       /></a>
@@ -196,7 +199,17 @@
 </template>
 
 <style lang="scss">
+@media only screen and (max-width:576px) {
+   .navbar{
+    .navbar-brand{
+      margin: 0 auto !important;
+    }
 
+    .bxs-bell{
+
+    }
+   }
+}
 
 @media only screen and (max-width: 992px) {
  .drop-cont{
@@ -291,7 +304,7 @@
   padding: 0 !important;
 
   i {
-    color: white !important;
+    color: gold !important;
     font-size: 2.5rem;
   }
 

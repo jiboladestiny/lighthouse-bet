@@ -107,6 +107,12 @@
     margin-right: 2rem;
    }
 }
+@media only screen and (max-width: 992px) {
+   .gametype-cont {
+    margin-left: 2rem;
+    margin-right: 2rem;
+   }
+}
 .gametype {
   background-image: url("./images/bg.png");
   background-repeat: no-repeat;
