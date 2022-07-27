@@ -18,13 +18,13 @@
           aria-selected="true"
         >
           <img
-            class="active img-fluid"
+            class="active "
             :src="require('./images/liveactive.png')"
             alt=""
           />
 
           <img
-            class="not-active img-fluid"
+            class="not-active"
             :src="require('./images/live.png')"
             alt=""
           />
@@ -40,14 +40,14 @@
           aria-selected="false"
         >
           <img
-            class="active img-fluid"
-            :src="require('./images/liveactive.png')"
+            class="active"
+            :src="require('./images/sportactive.png')"
             alt=""
           />
 
           <img
-            class="not-active img-fluid"
-            :src="require('./images/live.png')"
+            class="not-active"
+            :src="require('./images/sport.png')"
             alt=""
           />
         </button>
@@ -62,13 +62,13 @@
           aria-selected="false"
         >
           <img
-            class="active img-fluid"
+            class="active"
             :src="require('./images/lotteryactive.png')"
             alt=""
           />
 
           <img
-            class="not-active img-fluid"
+            class="not-active"
             :src="require('./images/lottery.png')"
 
             alt=""
@@ -85,14 +85,14 @@
           aria-selected="false"
         >
           <img
-            class="active img-fluid"
+            class="active"
             :src="require('./images/tempatiactive.png')"
 
             alt=""
           />
 
           <img
-            class="not-active img-fluid"
+            class="not-active"
             :src="require('./images/tempati.png')"
 
             alt=""
@@ -109,13 +109,13 @@
           aria-selected="false"
         >
           <img
-            class="active img-fluid"
+            class="active"
             :src="require('./images/pokeractive.png')"     
             alt=""
           />
 
           <img
-            class="not-active img-fluid"
+            class="not-active"
             :src="require('./images/poker.png')"
             alt=""
           />
@@ -131,13 +131,13 @@
           aria-selected="false"
         >
           <img
-            class="active img-fluid"
+            class="active"
             :src="require('./images/slotactive.png')"
             alt=""
           />
 
           <img
-            class="not-active img-fluid"
+            class="not-active"
             :src="require('./images/slot.png')" 
             alt=""
           />
@@ -300,12 +300,13 @@
     // background: red;
     .nav-link {
       padding: 0 !important;
-      width: auto !important;
       background: transparent !important;
       box-shadow: none !important;
       margin-bottom: 0rem !important;
-
       
+      img{
+        width:100%;
+      }
 
       .active {
         display: none;

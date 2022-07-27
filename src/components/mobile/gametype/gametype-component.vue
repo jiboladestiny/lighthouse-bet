@@ -23,6 +23,6 @@ export default {
   background: rgb(72, 72, 72);
   padding: 0.8rem 0.7rem;
   height: calc(100vh - 23.5rem);
-  overflow-y: scroll;
+  // overflow-y: scroll;
 }
 </style>
