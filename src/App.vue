@@ -4,7 +4,7 @@
     <carousel-component />
     <div class="show-mobile">
       <HotComponent />
-      <GameComponent/>
+      <GameComponent />
     </div>
     <div class="mobile">
       <GametypeComponent />
@@ -12,7 +12,6 @@
       <LiveComponent />
       <SemifooterComponent />
       <FooterComponent />
-      
     </div>
   </div>
 </template>
@@ -28,8 +27,6 @@ import FooterComponent from "./components/footer/footer-component.vue";
 import HotComponent from "./components/mobile/hot/hot-component.vue";
 import GameComponent from "./components/mobile/gametype/gametype-component.vue";
 
-
-
 export default {
   components: {
     HeaderComponent,
@@ -40,18 +37,27 @@ export default {
     SemifooterComponent,
     FooterComponent,
     HotComponent,
-    GameComponent
+    GameComponent,
   },
 };
 </script>
 <style>
 @media only screen and (max-width: 576px) {
+    body {
+    height: 100vh;
+
+  }
   .mobile {
     display: none;
+
+    
   }
 
   body {
-    background: rgb(48,48,48);
+    background: rgb(48, 48, 48);
+    margin: 0;
+    overflow: hidden;
+
   }
 }
 </style>
