@@ -93,8 +93,8 @@ export default {};
 <style lang="scss">
 @media only screen and (max-width:500px) {
  .carousel-cont{
-  margin-right: 0.3rem;
-  margin-left: 0.3rem;
+  margin-right: 0.55rem;
+  margin-left: 0.55rem;
  .carousel-item{
     img{
       height: 170px !important;

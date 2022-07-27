@@ -21,11 +21,7 @@
         />
       </div>
       <div>
-        <img
-          class="img-fluid"
-          :src="require('./images/playtech.png')"
-          alt=""
-        />
+        <img class="img-fluid" :src="require('./images/playtech.png')" alt="" />
       </div>
       <div>
         <img
@@ -59,7 +55,7 @@ export default {
       var right = document.querySelector(".hot-cont");
       right.scrollBy(100, 0);
     },
-     left() {
+    left() {
       var right = document.querySelector(".hot-cont");
       right.scrollBy(-100, 0);
     },
@@ -69,27 +65,26 @@ export default {
 
 <style lang="scss">
 .hot {
-      position: relative;
-  margin-right: 0.3rem;
-  margin-left: 0.3rem;
+  position: relative;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
   border-radius: 0.8rem;
   margin-top: 0.5rem;
-  background:rgb(96,96,96);
+  background:rgb(72,72,72);
   padding: 0.4rem 0.3rem;
   color: gold;
 
-  div{
-    font-size:14px;
-    margin-bottom:0.3rem;
+  div {
+    font-size: 14px;
+    margin-bottom: 0.3rem;
   }
 
   .hot-cont {
-  
     i {
       cursor: pointer;
       background: whitesmoke;
       border-radius: 1rem;
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       position: absolute;
       top: 60%;
       transform: translate(-50%, -50%);
@@ -104,7 +99,7 @@ export default {
     overflow-x: auto;
 
     &::-webkit-scrollbar {
-      width: 0;
+      width: 0 !important;
     }
     div {
       img {
