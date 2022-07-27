@@ -293,7 +293,7 @@
   .nav {
     // height: ;
     // margin-right: 5px !important;
-    width:15%;
+    width:20%;
     background: blue;
     // background: blue;
     overflow-y: scroll;
@@ -330,7 +330,7 @@
 
   .tab-content {
     margin-top: 0.5rem;
-    width: 85%;
+    width: 80%;
 
     .tab-pane {
       img {
