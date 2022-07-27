@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div style="background:red" class="d-flex tab-cont align-items-start">
+    <div class="d-flex tab-cont align-items-start">
       <div
         class="nav flex-column nav-pills"
         id="v-pills-tab"
@@ -18,16 +18,12 @@
           aria-selected="true"
         >
           <img
-            class="active "
+            class="active"
             :src="require('./images/liveactive.png')"
             alt=""
           />
 
-          <img
-            class="not-active"
-            :src="require('./images/live.png')"
-            alt=""
-          />
+          <img class="not-active" :src="require('./images/live.png')" alt="" />
         </button>
         <button
           class="nav-link"
@@ -45,11 +41,7 @@
             alt=""
           />
 
-          <img
-            class="not-active"
-            :src="require('./images/sport.png')"
-            alt=""
-          />
+          <img class="not-active" :src="require('./images/sport.png')" alt="" />
         </button>
         <button
           class="nav-link"
@@ -70,7 +62,6 @@
           <img
             class="not-active"
             :src="require('./images/lottery.png')"
-
             alt=""
           />
         </button>
@@ -87,14 +78,12 @@
           <img
             class="active"
             :src="require('./images/tempatiactive.png')"
-
             alt=""
           />
 
           <img
             class="not-active"
             :src="require('./images/tempati.png')"
-
             alt=""
           />
         </button>
@@ -110,15 +99,11 @@
         >
           <img
             class="active"
-            :src="require('./images/pokeractive.png')"     
+            :src="require('./images/pokeractive.png')"
             alt=""
           />
 
-          <img
-            class="not-active"
-            :src="require('./images/poker.png')"
-            alt=""
-          />
+          <img class="not-active" :src="require('./images/poker.png')" alt="" />
         </button>
         <button
           class="nav-link"
@@ -136,11 +121,7 @@
             alt=""
           />
 
-          <img
-            class="not-active"
-            :src="require('./images/slot.png')" 
-            alt=""
-          />
+          <img class="not-active" :src="require('./images/slot.png')" alt="" />
         </button>
       </div>
       <div class="tab-content" id="v-pills-tabContent">
@@ -290,22 +271,27 @@
 
 <style lang="scss">
 .tab-cont {
+  background: lime;
+  position: relative;
   .nav {
+    // position: fixed;
     // height: ;
     // margin-right: 5px !important;
-    width:20%;
+    width: 19%;
+    max-height: 20rem;
+    left: 1.3rem;
+    position: fixed;
+    overflow-y:scroll;
     background: blue;
-    // background: blue;
-    overflow-y: scroll;
     // background: red;
     .nav-link {
       padding: 0 !important;
       background: transparent !important;
       box-shadow: none !important;
       margin-bottom: 0rem !important;
-      
-      img{
-        width:100%;
+
+      img {
+        width: 100%;
       }
 
       .active {
@@ -330,7 +316,11 @@
 
   .tab-content {
     margin-top: 0.5rem;
-    width: 80%;
+    width: 73%;
+    position: fixed;
+    right: 1.5rem;
+    //    overflow-y: scroll;
+    //    background: yellow;
 
     .tab-pane {
       img {
