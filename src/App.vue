@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <HeaderComponent /> -->
+    <HeaderComponent />
     <carousel-component />
     <div class="show-mobile">
        <HotComponent />

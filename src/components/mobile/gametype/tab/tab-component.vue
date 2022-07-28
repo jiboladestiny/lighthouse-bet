@@ -303,14 +303,14 @@
 .tab-cont {
   width: 100%;
   height: calc(100% - 60px);
-  background: red;
+  // background: red;
   // float: left;
   // background: red;
   .nav-pills {
     width: 20%;
     height: 100%;
-    overflow: scroll;
-    background: yellow;
+    overflow: auto;
+    // background: yellow;
 
     &::-webkit-scrollbar {
       width: 0 !important;
@@ -347,7 +347,7 @@
   }
 
   .tab-content {
-    background: blue;
+    // background: blue;
     padding-top: 0.5rem;
     height: 100%;
     overflow: scroll;
