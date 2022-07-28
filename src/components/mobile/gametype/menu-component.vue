@@ -149,7 +149,7 @@
     -moz-box-shadow: 0px 2px 35px -4px rgba(0, 0, 0, 0.81);
     padding: 0.2rem 0;
     position: fixed;
-    bottom: 2.3rem;
+    bottom: 2rem;
     right: 50%;
     transform: translate(50%, 50%);
     width: 96%;
