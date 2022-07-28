@@ -57,7 +57,7 @@ export default {
   
    .app {
       height: 100vh;
-      background: rgb(48, 48, 48);
+      background:rgb(80,80,80);
       overflow: auto;
       width: 100%;
     }

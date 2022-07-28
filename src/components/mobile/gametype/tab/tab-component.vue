@@ -308,7 +308,7 @@
   // background: red;
   .nav-pills {
     padding-bottom: 2.5rem;
-    width: 17%;
+    width: 20%;
     height: 100%;
     overflow: auto;
     // background: yellow;
@@ -354,7 +354,7 @@
     padding-top: 0.5rem;
     height: 100%;
     overflow: scroll;
-    width: 83%;
+    width: 80%;
     padding-bottom: 2.4rem;
 
     &::-webkit-scrollbar {

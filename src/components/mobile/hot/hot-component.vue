@@ -65,6 +65,7 @@ export default {
 
 <style lang="scss">
 .hot {
+  
   position: relative;
   width: 96%;
   margin: 0 auto;
@@ -82,7 +83,7 @@ export default {
   .hot-cont {
     i {
       cursor: pointer;
-        background: rgb(72, 72, 72);
+        background:rgb(64,64,64);
       border-radius: 1rem;
       font-size: 1.4rem;
       position: absolute;

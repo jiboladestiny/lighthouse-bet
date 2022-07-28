@@ -201,7 +201,6 @@
 <style lang="scss">
 @media only screen and (max-width:576px) {
    .navbar{
-
     
     .navbar-brand{
       margin: 0 auto !important;
