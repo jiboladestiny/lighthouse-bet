@@ -185,7 +185,7 @@
               alt=""
             />PROMOTION
           </li>
-          <li class="d-lg-none d-xl-none d-xxl-flex">
+          <li class="d-lg-none d-xl-none d-xxl-none">
             <img
               class="icon-img"
               :src="require('./images/customer.png')"
@@ -201,7 +201,7 @@
 <style lang="scss">
 @media only screen and (max-width:576px) {
    .navbar{
-    background:red !important;
+
     
     .navbar-brand{
       margin: 0 auto !important;

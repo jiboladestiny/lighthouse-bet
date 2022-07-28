@@ -9,7 +9,7 @@
       <div>
         <img
           class="img-fluid"
-          :src="require('./images/pragmatic.png')"
+          :src="require('./images/sbobet.png')"
           alt=""
         />
       </div>
@@ -21,7 +21,7 @@
         />
       </div>
       <div>
-        <img class="img-fluid" :src="require('./images/playtech.png')" alt="" />
+        <img class="img-fluid" :src="require('./images/skinechange.png')" alt="" />
       </div>
       <div>
         <img
@@ -33,14 +33,14 @@
       <div>
         <img
           class="img-fluid"
-          :src="require('./images/pragmatic.png')"
+          :src="require('./images/zugi.png')"
           alt=""
         />
       </div>
       <div>
         <img
           class="img-fluid"
-          :src="require('./images/pragmatic.png')"
+          :src="require('./images/playtech.png')"
           alt=""
         />
       </div>
@@ -66,8 +66,8 @@ export default {
 <style lang="scss">
 .hot {
   position: relative;
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
+  width: 96%;
+  margin: 0 auto;
   border-radius: 0.8rem;
   margin-top: 0.5rem;
   background:rgb(72,72,72);
@@ -82,7 +82,7 @@ export default {
   .hot-cont {
     i {
       cursor: pointer;
-      background: whitesmoke;
+        background: rgb(72, 72, 72);
       border-radius: 1rem;
       font-size: 1.4rem;
       position: absolute;

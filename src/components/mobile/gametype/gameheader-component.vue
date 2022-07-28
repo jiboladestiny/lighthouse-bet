@@ -3,7 +3,7 @@
     <div class="lefts">
       <img
         class="me-2 mb-2"
-        :src="require('./images/ho_my1@2x.png')"
+        :src="require('./images/personactive.png')"
         width="27"
         alt=""
       />

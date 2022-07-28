@@ -91,10 +91,10 @@ export default {};
 </script>
 
 <style lang="scss">
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:576px) {
  .carousel-cont{
-  margin-right: 0.55rem;
-  margin-left: 0.55rem;
+   width: 96%;
+  margin: 0 auto;
  .carousel-item{
     img{
       height: 155px !important;

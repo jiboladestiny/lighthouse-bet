@@ -4,7 +4,7 @@
     <div class="containers">
       <div class="container">
         <div class="row gy-5">
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="gametype-cont">
               <div class="overlay">
                 <div class="text">
@@ -27,7 +27,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="gametype-cont">
               <div class="overlay">
                 <div class="text">
@@ -49,7 +49,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="gametype-cont">
               <div class="overlay">
                 <div class="text">
@@ -72,7 +72,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="gametype-cont">
               <div class="overlay">
                 <div class="text">
@@ -101,6 +101,31 @@
 </template>
 
 <style lang="scss">
+@media (min-width: 576px) and (max-width:768px)  {
+  .gametype-cont {
+      .image-cont {
+        bottom: -2rem !important;
+
+        img{
+            width:8.5rem !important;
+        }
+
+        .texter {
+          font-size: 12px !important;
+        }
+      }
+
+      
+        .text {
+   
+          button {
+            width: 150px !important;
+                     font-size: 15px !important;
+            padding: 6px 8px !important;
+          }
+        }
+    }
+}
 @media only screen and (max-width: 992px) {
    .gametype-cont {
     margin-left: 2rem;

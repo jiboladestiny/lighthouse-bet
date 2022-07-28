@@ -42,7 +42,19 @@ export default {
 };
 </script>
 <style>
+  body {
+    margin: 0;
+  }
+
+
+@media only screen and (min-width: 576px) {
+.show-mobile{
+  display: none;
+}
+}
+
 @media only screen and (max-width: 576px) {
+  
    .app {
       height: 100vh;
       background: rgb(48, 48, 48);
@@ -55,8 +67,6 @@ export default {
     display: none;
   }
 
-  body {
-    margin: 0;
-  }
+
 }
 </style>

@@ -21,8 +21,10 @@ export default {
 </script>
 <style lang="scss">
 .game {
-  margin-right: 0.55rem;
-  margin-left: 0.55rem;
+  // margin-right: 0.55rem;
+  // margin-left: 0.55rem;
+  width: 96%;
+  margin: 0 auto;
   border-radius: 0.8rem;
   margin-top: 0.5rem;
   background: rgb(72, 72, 72);

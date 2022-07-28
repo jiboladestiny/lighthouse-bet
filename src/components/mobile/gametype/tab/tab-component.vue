@@ -307,7 +307,8 @@
   // float: left;
   // background: red;
   .nav-pills {
-    width: 20%;
+    padding-bottom: 2.5rem;
+    width: 17%;
     height: 100%;
     overflow: auto;
     // background: yellow;
@@ -317,12 +318,14 @@
     }
 
     .nav-link {
-      padding: 0 !important;
-      background: transparent !important;
+      padding: 0rem !important;
+      background: none !important;
       box-shadow: none !important;
-      margin-bottom: 0rem !important;
+      margin-bottom: -2rem !important;
+
 
       img {
+        
         width: 100%;
       }
 
@@ -351,7 +354,8 @@
     padding-top: 0.5rem;
     height: 100%;
     overflow: scroll;
-    width: 80%;
+    width: 83%;
+    padding-bottom: 2.4rem;
 
     &::-webkit-scrollbar {
       width: 0 !important;

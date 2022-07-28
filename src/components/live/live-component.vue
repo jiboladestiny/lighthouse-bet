@@ -12,7 +12,7 @@
           </div>
           <div class="col-lg-9 col-md-12" style="z-index: auto !important">
             <div class="row g-0 inner-live-cont">
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-sm-6">
                 <div
                   class="
                     live-cont
@@ -24,7 +24,7 @@
                 >
                   <div>
                     <img
-              :src="require('./images/aecasino.png')"
+                      :src="require('./images/aecasino.png')"
                       alt=""
                       class="mb-1"
                     />
@@ -34,7 +34,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-sm-6">
                 <div
                   class="
                     live-contain
@@ -46,7 +46,7 @@
                 >
                   <div>
                     <img
-              :src="require('./images/play.png')"
+                      :src="require('./images/play.png')"
                       class="mb-2"
                       alt=""
                     />
@@ -56,7 +56,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-sm-6">
                 <div
                   class="
                     live-cont
@@ -71,7 +71,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-sm-6">
                 <div
                   class="
                     live-contain
@@ -86,7 +86,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-sm-6">
                 <div
                   class="
                     live-cont
@@ -98,7 +98,7 @@
                 >
                   <div>
                     <img
-              :src="require('./images/evolution.png')"
+                      :src="require('./images/evolution.png')"
                       class="mb-2"
                       alt=""
                     />
@@ -108,7 +108,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-4 col-md-6 col-sm-6">
                 <div
                   class="
                     live-contain
@@ -120,7 +120,7 @@
                 >
                   <div>
                     <img
-              :src="require('./images/ezlive.png')"
+                      :src="require('./images/ezlive.png')"
                       class="mb-2"
                       alt=""
                     />
@@ -156,7 +156,7 @@
 
     .inner-live-cont {
       .live-cont {
-        background-image: url('./images/bg.png');
+        background-image: url("./images/bg.png");
         color: whitesmoke;
         height: 300px;
         // width: 100%;
@@ -171,7 +171,7 @@
       .live-contain {
         cursor: pointer;
 
-        background-image: url('./images/grid-bg.png');
+        background-image: url("./images/grid-bg.png");
         color: whitesmoke;
         height: 300px;
         // width: 100%;
