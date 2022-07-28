@@ -147,14 +147,14 @@
     box-shadow: 0px 2px 35px -4px rgba(0, 0, 0, 0.81);
     -webkit-box-shadow: 0px 2px 35px -4px rgba(0, 0, 0, 0.81);
     -moz-box-shadow: 0px 2px 35px -4px rgba(0, 0, 0, 0.81);
-    padding: 0.2rem 0;
+    padding: 0.3rem 0;
     position: fixed;
-    bottom: 2rem;
+    bottom: 2.3rem;
     right: 50%;
     transform: translate(50%, 50%);
     width: 96%;
     // background: red;
-    background: rgb(72, 72, 72);
+    background:	rgb(56,56,56);
     border-radius: 3rem;
 
     div {

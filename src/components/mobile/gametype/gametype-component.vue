@@ -27,7 +27,7 @@ export default {
   margin: 0 auto;
   border-radius: 0.8rem;
   margin-top: 0.5rem;
-  background:	rgb(64,64,64);
+  background:	rgb(56,56,56);
   padding: 0.9rem 0.7rem;
   // height: 25rem;
   margin-bottom:-1rem !important;

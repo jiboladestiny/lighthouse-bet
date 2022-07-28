@@ -71,7 +71,7 @@ export default {
   margin: 0 auto;
   border-radius: 0.8rem;
   margin-top: 0.5rem;
-  background:rgb(72,72,72);
+  background:	rgb(56,56,56);
   padding: 0.4rem 0.3rem;
   color: gold;
 
