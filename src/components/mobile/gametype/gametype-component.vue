@@ -27,9 +27,9 @@ export default {
   margin-top: 0.5rem;
   background: rgb(72, 72, 72);
   padding: 0.9rem 0.7rem;
-  height: 25rem;
+  // height: 25rem;
   margin-bottom:-1rem !important;
-  // height: calc(100vh - 23.5rem);
+  height: calc(100vh - 23.5rem);
 
   // overflow-y: scroll;
 

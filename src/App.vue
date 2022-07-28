@@ -1,12 +1,10 @@
 <template>
   <div class="app">
-    <HeaderComponent />
+    <HeaderComponent /> -->
     <carousel-component />
     <div class="show-mobile">
-      <HotComponent />
+       <HotComponent />
       <GameComponent />
-      <GameComponent />
-
     </div>
     <div class="mobile">
       <GametypeComponent />
@@ -45,22 +43,20 @@ export default {
 </script>
 <style>
 @media only screen and (max-width: 576px) {
-    body {
-    height: 50vh !important;
-    overflow: hidden;
-        background: lime;
-  }
+   .app {
+      height: 100vh;
+      background: rgb(48, 48, 48);
+      overflow: auto;
+      width: 100%;
+    }
+
+
   .mobile {
     display: none;
-
-    
   }
 
   body {
-    /* background: rgb(48, 48, 48); */
     margin: 0;
-    overflow: scroll;
-
   }
 }
 </style>
