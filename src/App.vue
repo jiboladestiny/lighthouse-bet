@@ -44,7 +44,7 @@ export default {
 <style>
 @media only screen and (max-width: 576px) {
     body {
-    height: 100vh;
+    /* min-height: 100vh; */
 
   }
   .mobile {
@@ -56,7 +56,7 @@ export default {
   body {
     background: rgb(48, 48, 48);
     margin: 0;
-    overflow: hidden;
+    overflow: scroll;
 
   }
 }

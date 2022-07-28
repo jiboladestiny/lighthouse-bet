@@ -34,7 +34,13 @@
 .game-head {
   display: flex;
   border-bottom: 1px solid rgb(60, 60, 60);
-  padding: 0.4rem 0;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  // background:white;
+  // padding: 0.4rem 0;
+  // height: 50px;
+  // background: blue;
 
   .rights {
     display: flex;

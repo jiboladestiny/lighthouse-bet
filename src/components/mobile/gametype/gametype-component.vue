@@ -1,7 +1,9 @@
 <template>
   <div class="game">
-    <HeaderComponent />
-    <TabComponent />
+    <div class="game-cont">
+      <HeaderComponent />
+      <TabComponent />
+    </div>
   </div>
 </template>
 <script>
@@ -22,7 +24,14 @@ export default {
   margin-top: 0.5rem;
   background: rgb(72, 72, 72);
   padding: 0.8rem 0.7rem;
-  height: calc(100vh - 23.5rem);
+  height: 25rem;
+  // height: calc(100vh - 23.5rem);
+
   // overflow-y: scroll;
+
+  .game-cont {
+    height: 100%;
+    width: 100%;
+  }
 }
 </style>
