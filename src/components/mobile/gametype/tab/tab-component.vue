@@ -318,10 +318,10 @@
     }
 
     .nav-link {
-      padding: 0rem !important;
+      padding: 0 !important;
       background: none !important;
       box-shadow: none !important;
-      margin-bottom: -2rem !important;
+      margin-bottom: 0 !important;
 
 
       img {
