@@ -199,9 +199,16 @@
 </template>
 
 <style lang="scss">
+@media only screen and (min-width:576px) {
+  .navbar{
+    i{
+      display: none !important;
+    }
+  }
+}
 @media only screen and (max-width:576px) {
    .navbar{
-    
+ 
     .navbar-brand{
       margin: 0 auto !important;
     }
