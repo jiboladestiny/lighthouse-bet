@@ -97,7 +97,7 @@ export default {};
   margin-left: 0.55rem;
  .carousel-item{
     img{
-      height: 170px !important;
+      height: 155px !important;
       border-radius: 0.8rem;
     }
   }

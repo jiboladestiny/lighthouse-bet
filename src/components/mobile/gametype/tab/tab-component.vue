@@ -236,6 +236,61 @@
         />
       </div>
       <!-- fourth tab -->
+
+            <!-- fifth tab -->
+      <div
+        class="tab-pane fade"
+        id="v-pills-poker"
+        role="tabpanel"
+        aria-labelledby="v-pills-poker-tab"
+      >
+        <img
+          :src="require('./images/1.jpg')"
+          class="img-fluid"
+          alt=""
+          srcset=""
+        />
+        <img
+          :src="require('./images/4.jpg')"
+          class="img-fluid"
+          alt=""
+          srcset=""
+        />
+                <img
+          :src="require('./images/4.jpg')"
+          class="img-fluid"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <!-- fifth tab -->
+
+
+
+
+
+
+                  <!-- six tab -->
+      <div
+        class="tab-pane fade"
+        id="v-pills-slot"
+        role="tabpanel"
+        aria-labelledby="v-pills-slot-tab"
+      >
+        <img
+          :src="require('./images/2.jpg')"
+          class="img-fluid"
+          alt=""
+          srcset=""
+        />
+                <img
+          :src="require('./images/3.jpg')"
+          class="img-fluid"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <!-- fifth tab -->
     </div>
   </div>
 </template>

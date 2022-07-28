@@ -5,6 +5,8 @@
     <div class="show-mobile">
       <HotComponent />
       <GameComponent />
+      <GameComponent />
+
     </div>
     <div class="mobile">
       <GametypeComponent />
@@ -44,8 +46,9 @@ export default {
 <style>
 @media only screen and (max-width: 576px) {
     body {
-    /* min-height: 100vh; */
-
+    height: 50vh !important;
+    overflow: hidden;
+        background: lime;
   }
   .mobile {
     display: none;
@@ -54,7 +57,7 @@ export default {
   }
 
   body {
-    background: rgb(48, 48, 48);
+    /* background: rgb(48, 48, 48); */
     margin: 0;
     overflow: scroll;
 
